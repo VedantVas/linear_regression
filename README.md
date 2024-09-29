@@ -9,7 +9,7 @@
 This repository contains a Python script that performs **linear regression** on the **CalCOFI** dataset to explore the relationship between **salinity** and **temperature** in ocean water, which is simple model to illustrate how to make a linear regression model as a start.
 You can find the dataset on Kaggle by CalCOFI dataset name and can directly download it from there. 
 
-## What the Script Does
+## What the we will do.
 
 - Loads the CalCOFI dataset (salinity and temperature data).
 - Fills any missing values.
@@ -28,35 +28,6 @@ You'll need the following Python libraries:
 - `matplotlib`
 - `scikit-learn`
 
-To install them, run:
-
-```bash
-pip install numpy pandas seaborn matplotlib scikit-learn
-```
-
-## How to Use
-
-1. **Clone the Repository**:
-
-```bash
-git clone https://github.com/yourusername/calcofi-linear-regression.git
-cd calcofi-linear-regression
-```
-
-2. **Run the Script**:
-
-Make sure you have the dataset in the correct location or update the file path in the script:
-
-```bash
-python calcofi_regression.py
-```
-
-3. **Outputs**:
-   - The script will display the R-squared score (a measure of how well the model fits).
-   - It will also show two plots:
-     1. A scatter plot with a regression line.
-     2. A plot comparing actual vs predicted temperatures.
-
 ## What Each Part Does
 
 1. **Load Data**: Reads the dataset and extracts two columns: salinity (`Salnty`) and temperature (`T_degC`).
@@ -64,15 +35,6 @@ python calcofi_regression.py
 3. **Build Model**: Creates a linear regression model using the training data.
 4. **Evaluate**: Calculates the R-squared score to see how well the model fits the data.
 5. **Visualize**: Shows scatter plots and predictions.
-
-## Example Outputs
-
-- R-squared score on the full dataset:
-  ```
-  R-squared: 0.70 (example score)
-  ```
-
-- Example scatter plot and prediction plot will be shown as output.
 
 ## License
 
